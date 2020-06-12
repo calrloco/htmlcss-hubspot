@@ -12,9 +12,7 @@ html{
     font-family: 'Nunito', sans-serif;
 }
 body{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    /* font-size: 16px; */
+    
     line-height: 1.7;
     box-sizing: border-box;
 }
@@ -22,7 +20,7 @@ body{
 /* var */
 :root{
 --gutter-horizontal: 6rem;
---grid-width: 120rem;
+--grid-width: 114rem;
 --gutter-vertical: 8rem;
 
 /* var colors */
@@ -50,6 +48,7 @@ body{
     display: table;
     clear: both;
 }
+
 .row:not(:last-child){
     margin-bottom: var(--gutter-vertical);
 }
@@ -63,7 +62,7 @@ body{
     width: calc((100% - 2 * var(--gutter-horizontal)) / 3);
 }
 .board-table{
-    width: calc(calc(100%/ 4));
+    width: calc(100%/ 4);
     float: left;
 }
 [class^="col-"] {
@@ -133,7 +132,7 @@ a{
 }
 
 
-/* navbar top fine */
+/* navbar top end */
 /* navbar */
 .navbar-nav{
     height: 10rem;
@@ -148,9 +147,6 @@ a{
     font-weight: 600;
     text-transform: capitalize;
     list-style: none;
-    
-    
-    
 }
 .navbar-menu-items li{
     float: right;
@@ -158,6 +154,7 @@ a{
     line-height: 10rem;
 }
 /* navbar fin */
+
 /* header */
 .header-picture-pic{
     height:51.2rem;
@@ -175,7 +172,7 @@ a{
 }
 .img-bottom-left{
     position: absolute;
-    bottom: -11.9%;
+    bottom: -10.3%;
     width: 100%;
     height: 7.9rem;
     background-color: rgb(175,235,228);
@@ -185,9 +182,9 @@ a{
 }
 .img-bottom-right{
     position: absolute;
-    bottom: -11.5%;
+    bottom: -10.2%;
     right: 0;
-    width: 25%;
+    width: 20%;
     height: 14.5rem;
     background-color: #00a48d;
     border-top: 3.3px solid rgb(51,71,91);
@@ -196,7 +193,7 @@ a{
 }
 .img-bottom-outline{
     position: absolute;
-    bottom: -12%;
+    bottom: -10.7%;
     width: 100%;
     height: 7.9rem;
     background-color: transparent;
@@ -211,12 +208,11 @@ a{
 .section-header{
     background-image: linear-gradient( var(--gradient-left), var(--gradient-right));
     position: relative;
-}
-
-.section-header{
     padding: 6.4rem 0 11.2rem;
 }
+
 .header-heading__h1{
+    font-weight: 900;
     font-size: 4.6rem;
     line-height: 1.3em;
     margin: 23px 0;
@@ -230,6 +226,9 @@ a{
     z-index: 2000;
 }
 .btn-header{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
     padding: 2.3rem 3.4rem 2rem;
 }
 
@@ -260,6 +259,9 @@ a{
     font-size: 1.6rem;
 }
 /* card fullwidth */
+.cards{
+    margin: 0 0 10.12rem;
+}
 .card-fullwidth{
     box-shadow: var(--card-box-shadow);
     border-radius: var(--card-border-radius);
@@ -405,23 +407,72 @@ a{
 .costumer{
     padding: 10rem 0 15rem;
 }
-.costumer__text{
-    padding: 2rem 30rem 2rem 2rem;
-}
+
 .costumer__text-heading{
     font-size: 4rem; 
     margin:0 0 .5rem;
-    
+
 }
 .costumer__text-description{
     font-size: 1.9rem;
 }
+.costumer__logo{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.costumer__logo{
+    float: left;
+}
+.costumer__logo-grid{
+    width: 50%;
+    float: right;
+}
 .costumer__logo-wrapper{
     float: left;
-    padding: 2rem;
+    height: 8rem;
+    width: calc(100% / 4);
+    text-align: center;
 }
-.costumer__text-wrapper{
-    float: left;
+.costumer__text{
+   float: left;
+   width: 40%;
+}
+.randstad img{
+    height: 3rem;
 }
 
 /* costumer end */
+/* grow with hubspot*/
+.join__hubspot{
+    padding: 12rem 0;
+}
+.join__hubspot-header{
+    font-size: 3.2rem;
+    margin: 0 0 2rem;
+}
+.join__hubspot-slogan{
+    font-size: 1.6rem;
+    margin: 1.6rem 0;
+}
+.btn-slogan{
+    margin: 3.2rem 0 2.4rem;
+}
+.join__hubspot-text-small{
+
+    color: var(--font-color-dark);
+    font-size: 1.2rem;
+    margin: 2.4rem auto;
+}
+.join-img-box{
+    position: relative;
+}
+.join-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-15%);
+    width: 350px;
+    height: 452.5px;
+}
+/* footer */
