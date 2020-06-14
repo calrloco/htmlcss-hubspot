@@ -18,19 +18,23 @@
                 <div class="row row-top-nav">
                     <div class="nav-top-bar-dropdown">
                         <div class="lang">
-                            <a href="" class="lang__menu-a"><span class="lang__menu-hover">English <i
-                                        class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-                            <span class="nav-top-bar-contact">
-                                <p>contact us</p>
-                            </span>
-                            <!-- <ul class="lang__menu">
-                                <li class="lang__menu-items"><a href="#">日本語</a></li>
-                                <li class="lang__menu-items"><a href="#">Deutsch</a></li>
-                                <li class="lang__menu-items"><a href="#">english</a></li>
-                                <li class="lang__menu-items"><a href="#">español</a></li>
-                                <li class="lang__menu-items"><a href="#">Português</a></li>
-                                <li class="lang__menu-items"><a href="#">Français</a></li>
-                            </ul> -->
+                            <div class="lang-dropdown">
+                                
+                                <a href="#" class="lang__menu-a"><span class="lang__menu-hover"> <i class="fa fa-globe" aria-hidden="true"></i>English
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+                                <ul class="lang__menu">
+                                    <div class="lang__menu-triangle"></div>
+                                    <li class="lang__menu-items"><a href="#">日本語</a></li>
+                                    <li class="lang__menu-items"><a href="#">Deutsch</a></li>
+                                    <li class="lang__menu-items"><a href="#">English</a></li>
+                                    <li class="lang__menu-items"><a href="#">Español</a></li>
+                                    <li class="lang__menu-items"><a href="#">Português</a></li>
+                                </ul>
+                                </span>
+                                <span class="nav-top-bar-contact">
+                                    <p>contact us</p>
+                                </span>
+                            </div>
                         </div>
                     </div>
 
@@ -55,11 +59,11 @@
                     </div>
                     <div class="navbar-menu">
                         <ul class="navbar-menu-items">
-                            <li>software <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                            <li>pricing <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                            <li>resources <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                            <li>partners <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-                            <li>about <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                            <li>software <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>partners <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>resources <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>pricing</li>
+                            <li>about <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -82,12 +86,14 @@
                 </div>
                 <div class="col-1-of-two header-picture-div">
                     <div class="header-picture">
-                        
+
                         <img class="header-picture-pic"
                             src="https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg"
                             alt="">
                     </div>
-                    <img class="header-picture-cluod" src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/2019/clouds-desktop.svg" alt="image not loaded">
+                    <img class="header-picture-cluod"
+                        src="https://www.hubspot.com/hubfs/assets/hubspot.com/home/2019/clouds-desktop.svg"
+                        alt="image not loaded">
                 </div>
             </div>
             <div class="img-bottom-left"></div>
@@ -132,7 +138,10 @@
                                 <p class="card-fullwidth-content-slogan">Everything you need to organize, track, and
                                     build better relationships with leads and customers. Yes, it's 100% free. Forever.
                                 </p>
-                                <p class="card-fullwidth-content-features">POPULAR FEATURES</p>
+                                <div class="card-fullwidth-content-features-box">
+                                    <p class="card-fullwidth-content-features">POPULAR FEATURES</p>
+                                    <hr class="card-fullwidth-content-features-hr">
+                                </div>
                             </div>
                             <ul class="card-fullwidth-content__list">
                                 <li>Contact Insights</li>
@@ -297,7 +306,7 @@
             </div>
         </section>
         <section class="costumer">
-            <div class="row row-small">
+            <div class="row row-small row-small-costumer">
                 <div class="costumer_text">
                     <div class="costumer__text-box">
                         <h2 class="costumer__text-heading">52,000</h2>
@@ -407,17 +416,33 @@
                     <li><a href="#">join a local user group</a></li>
                     <li><a href="#">get a free website report</a></li>
                     <li><a href="#">hubspot templates</a></li>
-                    <li><a href="#">free tools generator</a>
-                        <ul>
-                            <li>email signature generato</li>
-                            <li>Marketing Plan Template Generator</li>
-                            <li>Blog Ideas Generator</li>
-                            <li>Make My Persona</li>
+                    <li><a class="footer-dropdown-trigger" href="#footer-drop">free tools generator
+                        <i class="fa fa-chevron-down" id="chevron-bottom" aria-hidden="true"></i>
+                    </a>
+                        <ul class="footer-dropdown" id="footer-drop">
+                            <li id="dropdown-first"><a href="#footer-drop">email signature generator
+                                </a></li>
+                            <li><a href="#footer-drop">Marketing Plan Template Generator</a></li>
+                            <li><a href="#footer-drop">Blog Ideas Generator</a></li>
+                            <li><a href="#footer-drop">Make My Persona</a></li>
                         </ul>
                     </li>
 
                 </ul>
-                <a href="#" class="btn-white"></a>
+               
+                <div class="footer-social">
+                    <div class="btn-withe-box">
+                    <a href="#" class="btn-white" id="btn-bottom">Contact HubSpot Support</a>
+                    </div>
+                    <a href=""><i class="fa fa-instagram-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-github-square"></i></a>
+
+                </div>
             </div>
         </div>
         <div class="row row-small">
@@ -436,7 +461,7 @@
                     <div class="logo-bottom">
                         <img src="http://web.archive.org/web/20190708062530im_/https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_gray.svg"
                             alt="" class="logo-white">
-                        <p class="copiright">Copyright © 2019 HubSpot, Inc.</p>
+                        <p class="copiryght">Copyright © 2019 HubSpot, Inc.</p>
                     </div>
                     <div class="footer-bottom__legal">
                         <div class="footer-bottom__legal-content">
@@ -449,7 +474,7 @@
 
         </div>
     </footer>
-      
+
 </body>
 
 </html>
