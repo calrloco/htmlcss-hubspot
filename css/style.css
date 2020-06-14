@@ -304,6 +304,11 @@ a{
     margin: 0;
     z-index: 2;
 }
+@media screen and (min-width: 2470px) {
+    .img-bottom-right {
+      width: 30%;
+    }
+}
 .img-bottom-outline{
     position: absolute;
     bottom:0;
