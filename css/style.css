@@ -260,12 +260,33 @@ a {
     right: -15%;
     z-index: 100;
 }
+@media screen and (max-width: 1366px) {
+    .header-picture {
+        right: -10%;
+    }
+    
+}
+@media screen and (max-width: 1280px) {
+    .header-picture {
+        right: -8%;
+    }
+}
 .header-picture-cluod {
     position: absolute;
     right: -15%;
     top: -15%;
     height: 40rem;
 }
+@media screen and (max-width: 1366px) {
+    .header-picture-cluod {
+        position: absolute;
+        right: -10%;
+        top: -15%;
+        height: 40rem;
+    }
+    
+}
+
 /* outline pic hader */
 .img-bottom-left {
     position: absolute;
@@ -273,7 +294,7 @@ a {
     width: 100%;
     height: 7.9rem;
     background-color: rgb(175, 235, 228);
-    border-top: 5px solid rgb(51, 71, 91);
+    border-top: 4.55px solid rgb(51, 71, 91);
     margin: 0;
     z-index: 1;
 }
@@ -293,6 +314,12 @@ a {
         width: 30%;
     }
 }
+@media screen and (max-width: 1385px) {
+    .img-bottom-right {
+        width: 0%;
+    }
+}
+
 .img-bottom-outline {
     position: absolute;
     bottom: 0;
