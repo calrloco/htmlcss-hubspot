@@ -294,7 +294,7 @@ a {
     width: 100%;
     height: 7.9rem;
     background-color: rgb(175, 235, 228);
-    border-top: 4.55px solid rgb(51, 71, 91);
+    border-top: 5px solid rgb(51, 71, 91);
     margin: 0;
     z-index: 1;
 }
@@ -693,7 +693,7 @@ a {
 .footer a,
 .footer li {
     font-size: 1.6rem;
-    padding: 0.8rem 0 0 .5rem;
+    padding: 0.8rem 0 .6rem .5rem;
     color: #cbd6e2;
 }
 .footer-nav-col ul li:first-child {
@@ -751,6 +751,7 @@ a {
 .footer-dropdown-trigger:hover + .footer-dropdown {
     display: block;
 }
+
 .footer-dropdown:hover {
     display: block;
 }
@@ -777,7 +778,6 @@ a {
     color: inherit;
     
 }
-
 .footer-social i:hover {
     color: #007a8c;
 }
