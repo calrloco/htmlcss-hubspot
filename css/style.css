@@ -410,7 +410,7 @@ a {
 
 .card-fullwidth ul li::before {
     content: "";
-    background: url(//web.archive.org/web/20190708074607im_/https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg)
+    background: url("http://web.archive.org/web/20190708074805im_/https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg")
         no-repeat;
     width: 18px;
     height: 18px;
@@ -498,7 +498,7 @@ a {
 }
 .div-card ul li::before {
     content: "";
-    background: url(//web.archive.org/web/20190708074607im_/https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg)
+    background: url("http://web.archive.org/web/20190708074805im_/https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg")
         no-repeat;
     width: 18px;
     height: 18px;
