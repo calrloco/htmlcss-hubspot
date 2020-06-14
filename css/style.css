@@ -681,6 +681,7 @@ a {
     padding: 0.8rem 1.6rem;
 }
 .footer-bottom__lang-menu {
+    margin-top: 3.2rem;
     padding: 3.2rem 0;
     text-align: center;
 }
@@ -714,7 +715,7 @@ a {
 #dropdown-first {
     font-size: 1.6rem;
     font-weight: 400;
-    padding: 0.8rem 0;
+    padding: 0.8rem 0 0 0.5rem;
     color: #cbd6e2;
 }
 .footer-dropdown-trigger:hover + .footer-dropdown {
