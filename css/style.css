@@ -140,7 +140,7 @@ a {
 }
 .lang__menu li:hover {
     border-radius: 0.1rem;
-    background-color: #0091ae;
+    background-color: #e5f5f8;
     padding: 1rem 0;
     z-index: 5000;
 }
@@ -557,7 +557,9 @@ a {
     font-size: 1.6rem;
 }
 .board-table {
+    position: relative;
     padding: 3rem;
+    height: 19rem;
 }
 .board-top .board-table {
     border-bottom: 1px solid var(--font-color-white);
@@ -580,9 +582,13 @@ a {
     font-size: 4rem;
     margin: 0 0 0.5rem;
 }
+
 .board-table-text {
     text-align: center;
     font-size: 1.44rem;
+}
+.board-table__heading-last{
+    margin-top: 1rem;
 }
 .plus {
     position: absolute;
@@ -590,9 +596,7 @@ a {
     font-size: 1.5rem;
     font-weight: 200;
 }
-.board-table__content img{
-    height: 3.3rem;
-}
+
 /* bosrds end */
 /* /////////////////////////////////////////////////////////// */
 /* costumer*/
