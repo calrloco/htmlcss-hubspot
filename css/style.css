@@ -590,6 +590,9 @@ a {
     font-size: 1.5rem;
     font-weight: 200;
 }
+.board-table__content img{
+    height: 3.3rem;
+}
 /* bosrds end */
 /* /////////////////////////////////////////////////////////// */
 /* costumer*/
@@ -604,9 +607,9 @@ a {
 }
 .costumer_text {
     position: absolute;
-    top: -30%;
+    top: 8.5%;
     font-size: 1.9rem;
-    width: 60%;
+    width: 100%;
 }
 .costumer__logo {
     float: left;
@@ -624,10 +627,21 @@ a {
     float: right;
 }
 .costumer__logo-wrapper {
+    position: relative;
     float: left;
     height: 8rem;
     width: calc(100% / 4);
     text-align: center;
+    padding: 2rem;
+}
+.costumer__logo-wrapper img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 2rem;
+    height: auto;
+    width: 9.7rem;
 }
 .costumer__text-box {
     position: absolute;
@@ -636,7 +650,8 @@ a {
     width: 40%;
 }
 .randstad img {
-    height: 3rem;
+    
+    height: 2.4rem;
 }
 
 /* costumer end */
@@ -699,7 +714,7 @@ a {
 .footer-nav-col ul li:first-child {
     font-size: 1.6rem;
     font-weight: 700;
-    padding: 0.8rem 0;
+    padding: 0.8rem 10px;
     color: var(--font-color-white);
 }
 .footer-bottom__legal-details {
